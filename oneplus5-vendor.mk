@@ -1,5 +1,5 @@
 PRODUCT_COPY_FILES += \
-		vendor/oneplus/oneplus5/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+        vendor/oneplus/oneplus5/proprietary/bin/adsprpcd:system/bin/adsprpcd \
         vendor/oneplus/oneplus5/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
         vendor/oneplus/oneplus5/proprietary/bin/athdiag:system/bin/athdiag \
         vendor/oneplus/oneplus5/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -1407,7 +1407,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus5/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
         vendor/oneplus/oneplus5/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
         vendor/oneplus/oneplus5/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-        vendor/oneplus/oneplus5/proprietary/vendor/qcril.db:system/vendor/qcril.db
+        vendor/oneplus/oneplus5/proprietary/vendor/qcril.db:system/vendor/qcril.db \
         vendor/oneplus/oneplus5/proprietary/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
         vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:system/vendor/lib64/hw/gatekeeper.msm8998.so \
         vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:system/vendor/lib/hw/gatekeeper.msm8998.so \
@@ -1418,7 +1418,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus5/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
         vendor/oneplus/oneplus5/proprietary/lib/libteeclientjni.so:system/lib/libteeclientjni.so \
         vendor/oneplus/oneplus5/proprietary/bin/fingerprintd:system/bin/fingerprintd \
-        vendor/oneplus/oneplus5/proprietary/bin/ifaadaemon:system/bin/ifaadaemon
+        vendor/oneplus/oneplus5/proprietary/bin/ifaadaemon:system/bin/ifaadaemon \
         vendor/oneplus/oneplus5/proprietary/etc/fsync_db.config:system/etc/fsync_db.config \
         vendor/oneplus/oneplus5/proprietary/etc/GyroOffset_db.config:system/etc/GyroOffset_db.config \
         vendor/oneplus/oneplus5/proprietary/etc/oneplus5_vstab_db_1080p_video_0_30fps.config:system/etc/oneplus5_vstab_db_1080p_video_0_30fps.config \
@@ -1452,7 +1452,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus5/proprietary/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so \
         vendor/oneplus/oneplus5/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
         vendor/oneplus/oneplus5/proprietary/lib/rfsa/adsp/libVDHexagonBlurless_skel.so:system/lib/rfsa/adsp/libVDHexagonBlurless_skel.so \
-        vendor/oneplus/oneplus5/proprietary/vendor/lib/libStDualCam.so:system/vendor/lib/libStDualCam.so
+        vendor/oneplus/oneplus5/proprietary/vendor/lib/libStDualCam.so:system/vendor/lib/libStDualCam.so \
         vendor/oneplus/oneplus5/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
         vendor/oneplus/oneplus5/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
         vendor/oneplus/oneplus5/proprietary/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
