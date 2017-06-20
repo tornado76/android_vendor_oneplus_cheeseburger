@@ -1,6 +1,8 @@
 PREBUILT_PATH := $(call my-dir)
 LOCAL_PATH := $(PREBUILT_PATH)
 
+ifeq ($(TARGET_DEVICE),oneplus5)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE        := libgpustats
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
@@ -307,3 +309,5 @@ $(shell ln -s /persist/rfs/apq/gnss $(TARGET_OUT)/rfs/apq/gnss/readwrite)
 $(shell ln -s /persist/rfs/shared $(TARGET_OUT)/rfs/apq/gnss/shared)
 $(shell ln -s /persist/hlos_rfs/shared $(TARGET_OUT)/rfs/apq/gnss/hlos)
 $(shell ln -s /firmware $(TARGET_OUT)/rfs/apq/gnss/readonly/firmware)
+
+endif
