@@ -1417,7 +1417,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus5/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
         vendor/oneplus/oneplus5/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
         vendor/oneplus/oneplus5/proprietary/lib/libteeclientjni.so:system/lib/libteeclientjni.so \
-        vendor/oneplus/oneplus5/proprietary/bin/fingerprintd:system/bin/fingerprintd \
         vendor/oneplus/oneplus5/proprietary/bin/ifaadaemon:system/bin/ifaadaemon \
         vendor/oneplus/oneplus5/proprietary/etc/fsync_db.config:system/etc/fsync_db.config \
         vendor/oneplus/oneplus5/proprietary/etc/GyroOffset_db.config:system/etc/GyroOffset_db.config \
