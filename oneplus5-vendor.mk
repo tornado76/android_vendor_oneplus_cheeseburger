@@ -323,7 +323,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus5/proprietary/framework/uimlpalibrary.jar:system/framework/uimlpalibrary.jar \
         vendor/oneplus/oneplus5/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
         vendor/oneplus/oneplus5/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-        vendor/oneplus/oneplus5/proprietary/lib/hw/lights.msm8998.so:system/lib/hw/lights.msm8998.so \
         vendor/oneplus/oneplus5/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
         vendor/oneplus/oneplus5/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
         vendor/oneplus/oneplus5/proprietary/lib/libiriscamera.so:system/lib/libiriscamera.so \
@@ -341,7 +340,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus5/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
         vendor/oneplus/oneplus5/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
         vendor/oneplus/oneplus5/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-        vendor/oneplus/oneplus5/proprietary/lib64/hw/lights.msm8998.so:system/lib64/hw/lights.msm8998.so \
         vendor/oneplus/oneplus5/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
         vendor/oneplus/oneplus5/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
         vendor/oneplus/oneplus5/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
