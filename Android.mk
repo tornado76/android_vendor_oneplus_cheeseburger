@@ -1,7 +1,7 @@
 PREBUILT_PATH := $(call my-dir)
 LOCAL_PATH := $(PREBUILT_PATH)
 
-ifeq ($(TARGET_DEVICE),oneplus5)
+ifeq ($(TARGET_DEVICE),cheeseburger)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE        := libgpustats
