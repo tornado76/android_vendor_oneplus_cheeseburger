@@ -11,7 +11,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 64
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib64/libgpustats.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib64/libgpustats.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib64
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -24,7 +24,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 32
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib/libgpustats.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libgpustats.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -37,7 +37,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 64
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib64/libqmi_cci.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib64/libqmi_cci.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib64
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -50,7 +50,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 32
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib/libqmi_cci.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libqmi_cci.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -63,7 +63,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 64
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib64/libqmiservices.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib64/libqmiservices.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib64
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -76,7 +76,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 32
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib/libqmiservices.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libqmiservices.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -89,7 +89,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 64
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib64/libidl.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib64/libidl.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib64
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -102,7 +102,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 32
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib/libidl.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libidl.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -115,7 +115,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 64
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib64/libqmi_common_so.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib64/libqmi_common_so.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib64
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -128,7 +128,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 32
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib/libqmi_common_so.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libqmi_common_so.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -141,7 +141,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 64
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib64/libdsi_netctrl.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib64/libdsi_netctrl.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib64
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -154,7 +154,7 @@ LOCAL_STRIP_MODULE  := false
 LOCAL_MULTILIB      := 32
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := vendor/lib/libdsi_netctrl.so
+LOCAL_SRC_FILES     := proprietary/vendor/lib/libdsi_netctrl.so
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
@@ -164,7 +164,7 @@ LOCAL_MODULE := dsi_config.xml
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/etc/data
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := etc/data/dsi_config.xml
+LOCAL_SRC_FILES := proprietary/etc/data/dsi_config.xml
 LOCAL_MODULE_OWNER := qti
 include $(BUILD_PREBUILT)
 
@@ -173,7 +173,7 @@ LOCAL_MODULE := netmgr_config.xml
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/etc/data
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := etc/data/netmgr_config.xml
+LOCAL_SRC_FILES := proprietary/etc/data/netmgr_config.xml
 LOCAL_MODULE_OWNER := qti
 include $(BUILD_PREBUILT)
 
@@ -181,7 +181,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE        := dashd
 LOCAL_MODULE_CLASS  := EXECUTABLES
 LOCAL_MODULE_TAGS   := optional
-LOCAL_SRC_FILES     := sbin/dashd
+LOCAL_SRC_FILES     := proprietary/sbin/dashd
 LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
 LOCAL_FORCE_STATIC_EXECUTABLE := true
 LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)
@@ -194,7 +194,7 @@ LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_CLASS  := APPS
 LOCAL_CERTIFICATE   := platform
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_SRC_FILES     := priv-app/IFAAService/IFAAService.apk
+LOCAL_SRC_FILES     := proprietary/priv-app/IFAAService/IFAAService.apk
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/priv-app
 include $(BUILD_PREBUILT)
 
@@ -205,7 +205,7 @@ LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_CLASS  := APPS
 LOCAL_CERTIFICATE   := platform
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_SRC_FILES     := priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+LOCAL_SRC_FILES     := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/priv-app
 include $(BUILD_PREBUILT)
 
