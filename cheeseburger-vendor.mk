@@ -1472,14 +1472,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     dashd \
-    dsi_config.xml \
-    IFAAService \
     libdsi_netctrl \
     libgpustats \
-    libidl \
     libqmi_cci \
     libqmi_common_so \
-    libqmiservices \
-    netmgr_config.xml \
-    qcrilmsgtunnel
+    libqmiservices
 
