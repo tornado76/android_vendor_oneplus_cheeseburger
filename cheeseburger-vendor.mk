@@ -194,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/lib/libVDBlurlessAPI.so:system/lib/libVDBlurlessAPI.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/oneplus/cheeseburger/proprietary/lib/modules/qca_cld3/qca_cld3_wlan.ko:system/lib/modules/qca_cld3/qca_cld3_wlan.ko \
     vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so \
     vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
     vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libVDHexagonBlurless_skel.so:system/lib/rfsa/adsp/libVDHexagonBlurless_skel.so \
