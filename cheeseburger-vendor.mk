@@ -419,6 +419,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/hw/audio.a2dp.default.so:system/vendor/lib/hw/audio.a2dp.default.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/hw/activity_recognition.msm8998.so:system/vendor/lib/hw/activity_recognition.msm8998.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:system/vendor/lib/hw/gatekeeper.msm8998.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/hw/keystore.msm8998.so:system/vendor/lib/hw/keystore.msm8998.so \
@@ -546,6 +547,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/hw/audio.a2dp.default.so:system/vendor/lib64/hw/audio.a2dp.default.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/hw/activity_recognition.msm8998.so:system/vendor/lib64/hw/activity_recognition.msm8998.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:system/vendor/lib64/hw/gatekeeper.msm8998.so \
