@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
+    vendor/oneplus/cheeseburger/proprietary/bin/init.qti.qseecomd.sh:system/bin/init.qti.qseecomd.sh \
     vendor/oneplus/cheeseburger/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oneplus/cheeseburger/proprietary/etc/GyroOffset_db.config:system/etc/GyroOffset_db.config \
     vendor/oneplus/cheeseburger/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
