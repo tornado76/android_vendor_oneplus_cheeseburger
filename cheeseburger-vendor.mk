@@ -729,6 +729,15 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcnvitems \
     qcrilhook
+
+# OnePlus Camera
+PRODUCT_PACKAGES += \
+    libfilter-sdk \
+    lib-imscamera \
+    libimscamera_jni \
+    libimsmedia_jni \
+    secure_camera_sample_client \
+    OnePlusCamera
 endif
 
 -include vendor/extra/devices.mk
