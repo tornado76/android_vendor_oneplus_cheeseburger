@@ -6,8 +6,8 @@
 # Find where we are
 LOCAL_PATH := $(call my-dir)
 
-# Check if the device is oneplus2
-ifeq ($(TARGET_DEVICE),oneplus2)
+# Check if the device is op5
+ifeq ($(TARGET_DEVICE),cheeseburger)
 
 ### LIB and LIB64
 
