@@ -18,6 +18,8 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),cheeseburger)
 
+include vendor/oneplus/cheeseburger/OxygenOSCamera.mk
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := dashd
 LOCAL_MODULE_OWNER := oneplus
