@@ -730,6 +730,8 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 
+include OxygenOSCamera.mk
+
 # OnePlus Camera
 PRODUCT_PACKAGES += \
     libfilter-sdk \
