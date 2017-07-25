@@ -1,5 +1,6 @@
 #!/system/bin/sh
 # Copyright (c) 2016, The Linux Foundation. All rights reserved.
+# Copyright (C) 2017 The halogenOS Project
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -30,7 +31,7 @@
 
 while [ "$registered" != "true" ]
 do
-    sleep 0.1
+    sleep 0.05
     registered="`getprop sys.listeners.registered`"
 done
 
