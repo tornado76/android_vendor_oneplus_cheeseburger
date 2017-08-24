@@ -114,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/libteeclientjniv2.so:system/lib64/libteeclientjniv2.so \
-    vendor/oneplus/cheeseburger/proprietary/priv-app/IFAAService/IFAAService.apk:system/priv-app/IFAAService/IFAAService.apk \
     vendor/oneplus/cheeseburger/proprietary/vendor/firmware/libpn553_fw.so:system/vendor/firmware/libpn553_fw.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libSonyIMX350PdafLibrary.so:system/vendor/lib/libSonyIMX350PdafLibrary.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libSonyIMX371RmscLibrary.so:system/vendor/lib/libSonyIMX371RmscLibrary.so \
@@ -754,7 +753,8 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    IFAAService
 
 endif
 
